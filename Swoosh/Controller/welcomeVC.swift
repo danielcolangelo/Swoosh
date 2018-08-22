@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class welcomeVC: UIViewController {
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
@@ -24,6 +24,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
 
 
