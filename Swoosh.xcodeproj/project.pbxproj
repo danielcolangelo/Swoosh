@@ -15,6 +15,8 @@
 		7C26447D212BA0D100AD4352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C26447B212BA0D100AD4352 /* Main.storyboard */; };
 		7C26447F212BA0D200AD4352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C26447E212BA0D200AD4352 /* Assets.xcassets */; };
 		7C264482212BA0D200AD4352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C264480212BA0D200AD4352 /* LaunchScreen.storyboard */; };
+		7C4DD87F2133954700A3A0C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DD87E2133954700A3A0C0 /* Default-568h@2x.png */; };
+		7C9327BA213399D8001A8F52 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9327B9213399D8001A8F52 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7C26447E212BA0D200AD4352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C264481212BA0D200AD4352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C264483212BA0D200AD4352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4DD87E2133954700A3A0C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C9327B9213399D8001A8F52 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		7C0370BA212D15CC0062A289 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7C9327B9213399D8001A8F52 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 		7C26446B212BA0D000AD4352 = {
 			isa = PBXGroup;
 			children = (
+				7C4DD87E2133954700A3A0C0 /* Default-568h@2x.png */,
 				7C264476212BA0D000AD4352 /* Swoosh */,
 				7C264475212BA0D000AD4352 /* Products */,
 			);
@@ -156,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C264482212BA0D200AD4352 /* LaunchScreen.storyboard in Resources */,
+				7C4DD87F2133954700A3A0C0 /* Default-568h@2x.png in Resources */,
 				7C26447F212BA0D200AD4352 /* Assets.xcassets in Resources */,
 				7C26447D212BA0D100AD4352 /* Main.storyboard in Resources */,
 			);
@@ -172,6 +179,7 @@
 				7C26447A212BA0D100AD4352 /* welcomeVC.swift in Sources */,
 				7C264478212BA0D000AD4352 /* AppDelegate.swift in Sources */,
 				7C0370BE212D17160062A289 /* SkillVC.swift in Sources */,
+				7C9327BA213399D8001A8F52 /* Player.swift in Sources */,
 				7C0370B8212CD3460062A289 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2TT4P7A5S;
-				INFOPLIST_FILE = Swoosh/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swoosh/View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2TT4P7A5S;
-				INFOPLIST_FILE = Swoosh/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swoosh/View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
